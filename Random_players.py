@@ -20,7 +20,6 @@ def user_input_start():
     rivals(players, quantity)
 
 
-
 def rivals(players, quantity):
     number_players = 1
     players_number = [random.sample(range(1, quantity + 1), quantity)]
